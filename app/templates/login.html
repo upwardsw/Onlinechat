@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../css/login.css">
+    <title>login</title>
+    <style>
+        body{
+            background-image: url("background.png");
+        }
+        .button {
+            background-color: grey;
+            border: none;
+            border-radius:15px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="logindiv" class="center">
+    <h3><br><br><br><br><br></h3>
+    <h3><font size="6px">Login your account</font></h3>
+    <form id="loginform" name="loginform" method="post">
+        <table align="center">
+            <tr>
+                <td><label class="lbl-1"><font size="5px" color="blue">User's id:</font></label></td>
+                <td><input type="text" class="sheet" id="uid" name="uid" required><br></td>
+            </tr>
+    <tr>
+        <td></label class="lbl-1"><font size="5px" color="blue">Password:</font></label></td>
+        <td><input type="password" class="sheet" name="password" required><br></td>
+    </tr>
+        </table>
+            <input type="submit" class="button" value="login"><input type="button" class="button" value="register" onclick="register()">
+    </form>
+</div>
+<script>
+    function register() {
+        window.location.href="register.html";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../css/register.css" rel="stylesheet">
+    <title>register</title>
+    <style>
+        body{
+            background-image: url("background.png");
+        }
+        .button {
+            background-color: grey;
+            border: none;
+            border-radius:15px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="Registerdiv" class="Register">
+    <br>
+    <br>
+    <br>
+    <h3><font size="6px">Register your account</font></h3>
+    <form id="registerform" name="registerform" method="post">
+        <table align="center">
+            <tr>
+                <td><font size="5px" color="blue">username:</font></td>
+                <td><label class="lbl-1"><input type="text" class="sheet" name="username" id="username" required></label></td>
+            </tr>
+        <tr>
+            <td><font size="5px" color="blue">password:</font></td>
+            <td><label class="lbl-1"><input type="password" class="sheet" id="password" name="password" required></label></td>
+        </tr>
+        <tr>
+            <td><font size="5px" color="blue">email:</font></td>
+            <td><label class="lbl-1"><input type="email" class="sheet" id="email" name="email" required></label></td>
+        </tr>
+        </table>
+        <table align="center">
+            <tr>
+                <td><font size="5px" color="blue">age:</font></td>
+                <td><label class="lbl-1"><input type="number" class="sheet" id="age" name="age" required></label><br></td>
+            </tr>
+            <tr>
+                <td><font size="5px" color="blue">birthday:</font></td>
+                <td><label class="lbl-1"><input type="date" class="sheet" id="birthday" name="birthday" required><br></label></td>
+            </tr>
+        </table>
+        <input type="submit" class="Register" value="register">
+    </form>
+</div>
+</body>
+</html>

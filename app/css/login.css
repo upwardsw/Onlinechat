@@ -1,0 +1,78 @@
+.center
+{
+    text-align:center;
+}
+label.lbl-1 {
+    margin: 8px 10px 0px 0px;
+}
+.sheet{
+    background: #6eb6de;
+    border-radius:15px;
+    height: 30px;
+}
+input[type="submit"]{
+    font-size: 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #3ea751;
+    width: 9%;
+    padding: 18px 0;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #ff2775;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -o-transition: 1s all;
+}
+input[type="button"]{
+    font-size: 30px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #3ea751;
+    width: 9%;
+    padding: 18px 0;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background: #ff2775;
+    border-bottom-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-bottom-left-radius: 15px;
+    -o-border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    -o-border-bottom-right-radius: 15px;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -o-transition: 1s all;
+}

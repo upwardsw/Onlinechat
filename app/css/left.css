@@ -1,0 +1,49 @@
+.bigleft{
+    width: 35%;height: 100vh;float: left;
+}
+.left-top{
+    width: 100%;height: 20vh;background-color: lightsalmon;
+}
+.left-mid{
+    width: 100%;height: 10vh;background-color: darkcyan;
+}
+.left-bottom{
+    width: 100%;height: 70vh;background-color: cyan;
+}
+.messagebutton{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: bisque;
+    cursor: pointer;
+}
+.contactbutton{
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.leftbuttoncss{
+    text-align: center;
+    font-size: larger;
+
+}
+.left-top-img{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    float: left;
+    background-color: black;
+    width: 25%;
+    height: 80%;
+}
+.left-top-uname{
+    overflow: auto;
+
+}
+.left-top-uname-text{
+    margin-left: 3vh;
+}
+.clear{
+    clear: both;
+}
